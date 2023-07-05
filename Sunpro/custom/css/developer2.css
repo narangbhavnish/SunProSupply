@@ -1,0 +1,620 @@
+label.error {
+    color: red;
+    font-size: 13px;
+}
+
+.brdr-trnsprnt {
+    border: transparent;
+    padding: 7px 21px 7px 21px;
+}
+
+.requestServiceModal .form__auth__control {
+    margin-top: 0;
+}
+
+.slick-dots>li {
+    display: inline-block;
+}
+
+.slick-dots>li:only-child {
+    display: none;
+}
+
+.pagination li.page-item .page-link.current {
+    background-color: #3C65F3;
+    color: #fff;
+    border-color: #3C65F3;
+    border-radius: 4px;
+    width: 36px;
+    height: 37px;
+}
+
+.cart--btn {
+    margin-right: 5px;
+}
+
+.add--to--cart {
+    display: inline-flex !important;
+    justify-content: space-between !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    background-color: #3C65F3 !important;
+    border-radius: 50px !important;
+    padding: 7px 10px 7px 21px !important;
+    text-decoration: none !important;
+    line-height: 36px !important;
+}
+
+.add--to--cart .circle--shape {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.add--to--cart .circle--shape svg {
+    width: 18px;
+}
+
+.related--products .star-rating,
+.products--page .star-rating {
+    width: 100% !important;
+}
+
+.products--page div.product {
+    margin-bottom: 10px !important;
+}
+
+.related--products .star-rating::before,
+.related--products .star-rating span::before,
+.products--page .star-rating::before,
+.products--page .star-rating span::before {
+    left: 50% !important;
+    transform: translateX(-50%);
+}
+
+.page-template--forgot-password.mt-ng-250,
+.page-template--reset-password.mt-ng-250 {
+    margin-top: -200px;
+}
+
+.page-template--forgot-password .status,
+.page-template-register .status,
+.page-template-login .status,
+.page-template--reset-password .status {
+    font-size: 14px;
+}
+
+.woocommerce-no-products-found {
+    text-align: center;
+    width: 100%;
+}
+
+.woocommerce a.added_to_cart {
+    padding-left: 15px;
+}
+
+.request_additional_info .form__auth__control {
+    margin-top: 30px !important;
+}
+
+.agree_checkbox .wpcf7-list-item-label {
+    display: none;
+}
+
+.register--div .form__auth--label {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(76, 90, 107, 1);
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+
+.register--div .text--full~label.form__auth--label.fname-label {
+    top: -15px;
+    font-weight: 600;
+    color: rgba(9, 9, 77, 1);
+}
+
+.register--div .wpcf7-list-item input {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0, 0, 0, .25);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    print-color-adjust: exact;
+    border-radius: 0.25em;
+    margin-right: 8px;
+}
+
+.register--div .wpcf7-list-item input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e")
+}
+
+sub {
+    bottom: 4px !important;
+}
+
+.location--div p {
+    font-weight: 500;
+}
+
+.autoship-scheduled-order-template h2 mark.order-number {
+    background: transparent;
+    color: #3c65f3;
+    margin-left: 5px;
+}
+.autoship-scheduled-order-template h2 {
+	font-size: 22px;
+    color: rgba(9, 9, 137, 1);
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    padding-bottom: 10px
+}
+.autoship-scheduled-order-summary h3 {
+    font-size: 16px !important;
+    color: rgb(0 0 0);
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    padding-bottom: 10px;
+}
+.autoship-scheduled-order-summary h3 .order-status, .schedule-summary .notice mark.order-date {
+    background: #f2f5ff;
+    color: #3c65f3;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-left: 3px;
+}
+.schedule-summary .notice {
+    font-size: 16px !important;
+    color: rgb(0 0 0);
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    padding-bottom: 10px;
+	margin-top: 5px !important;
+}
+.schedule-summary .subnotice {
+    font-size: 15px !important;
+    color: rgb(0 0 0);
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+    padding-bottom: 10px;
+    margin-top: 5px !important;
+}
+.schedule-summary .subnotice mark.order-quantity {
+    background-color: transparent;
+    color: #3c65f3;
+}
+.schedule-summary .subnotice mark.order-frequency {
+    background-color: transparent;
+    color: #000;
+}
+.action-info .button.autoship-action-btn.activate-action {
+    background: transparent;
+    border: 1px solid #3c65f3;
+    color: #3c65f3;
+    font-size: 14px;
+    font-weight: 400;
+	padding: 10px 20px;
+}
+.action-info .button.autoship-action-btn.paused, .action-info .button.autoship-action-btn.active {
+    background: transparent;
+    border: 1px solid #e3af39;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e59826;
+	padding: 10px 20px;
+}
+.action-info .button.autoship-action-btn.deleted {
+    background: transparent;
+    border: 1px solid #f33c3c;
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 400;
+    color: #d52f2f;
+	padding: 10px 20px;
+}
+.action-info .button.autoship-action-btn.create {
+    background: #060649;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    padding: 11px 20px;
+}
+.woo-content .autoship-scheduled-order-edit-form table.shop_table tr th, .woo-content .autoship-scheduled-order-edit-form table.shop_table tr td {
+    max-width: 90px;
+}
+.autoship-scheduled-order-template .autoship-scheduled-order-items-table .scheduled-order-add-ons select {
+	max-width: 100%;
+}
+.autoship-scheduled-order-template tr.cart-shipping_total td, .autoship-scheduled-order-template tr.cart-tax_total td {
+    text-align: end;
+}
+.autoship-scheduled-order-template .autoship-scheduled-order-payment-method-summary h3 {
+    font-size: 22px;
+    color: rgba(9, 9, 137, 1);
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    padding-bottom: 10px;
+}
+.autoship-scheduled-order-template .autoship-scheduled-order-payment-method-summary h3::before {
+	content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90px;
+    background: rgba(9, 9, 137, 1);
+    height: 3px;
+    border-radius: 12px;
+}
+.autoship-scheduled-order-template .autoship-scheduled-order-payment-method-summary p {
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.autoship-scheduled-order-template .autoship-scheduled-order-payment-method-summary p mark.order-date {
+    background: transparent;
+    font-weight: 500;
+    padding: 0;
+}
+.autoship-address-summary-column.woocommerce-column--billing-address, .autoship-address-summary-title.woocommerce-column--shipping-address {
+    border: 1px solid #dae2fd;
+    margin-top: 10px;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 2%);
+}
+.autoship-address-summary-column.woocommerce-column--billing-address address, .autoship-address-summary-title.woocommerce-column--shipping-address address {
+    border: 0;
+    padding: 0;
+    margin: 10px 0px;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.3;
+    font-weight: 400;
+}
+.autoship-address-summary-subnote {
+    opacity: 1 !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+}
+.autoship-scheduled-order-template .autoship-order-details-summary-form {
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 2%);
+    border: 1px solid #dae2fd;
+    border-radius: 15px;
+}
+.autoship-scheduled-order-template .autoship-order-details-summary-form button.button.autoship-action-btn {
+    background: #060649;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 14px 35px;
+    min-width: 200px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 8px;
+}
+.autoship-scheduled-order-template .autoship-order-details-summary-form button.button.autoship-action-btn:hover {
+    background: #07077a;
+}
+.autoship-scheduled-order-template .autoship-order-details-summary-form select, .autoship-scheduled-order-template .autoship-scheduled-order-items-table .scheduled-order-add-ons select {
+    font-size: 15px;
+    line-height: normal;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(212, 212, 255, 1);
+    border-radius: 0px;
+    padding: 5px 0px 5px;
+    color: rgba(60, 101, 243, 1);
+}
+.autoship-scheduled-order-template .autoship-scheduled-order-edit-form.empty-order .no-items-notice {
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 5%);
+    padding: 25px;
+}
+.autoship-scheduled-order-template .autoship-scheduled-order-edit-form.empty-order .no-items-notice p {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 15px;
+}
+.autoship-scheduled-order-template .autoship-scheduled-order-edit-form.empty-order .no-items-notice .autoship-action-link.paused, .autoship-scheduled-order-template .autoship-scheduled-order-edit-form.empty-order .no-items-notice .autoship-action-link.active {
+    background: transparent;
+    border: 1px solid #e3af39;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e59826;
+    padding: 6px 20px;
+}
+.autoship-scheduled-order-template .autoship-scheduled-order-edit-form.empty-order .no-items-notice .autoship-action-link.deleted {
+    background: transparent;
+    border: 1px solid #f33c3c;
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 400;
+    color: #d52f2f;
+    padding: 6px 20px;
+    margin-left: 5px;
+}
+.autoship-scheduled-orders-header-actions .button.autoship-action-btn {
+    background: #060649;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 14px 35px;
+    min-width: 200px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 8px;
+}
+.autoship-scheduled-orders-table .autoship-icon-button.autoship-button.paused,.autoship-scheduled-orders-table .autoship-icon-button.autoship-button.active {
+    color: #e59826;
+    border-color: #e3af39;
+	border-color: transparent;
+    padding: 5px 6px !important;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+.autoship-scheduled-orders-table .autoship-icon-button.autoship-button.deleted {
+    color: #d52f2f;
+    opacity: 1;
+    border-color: #f33c3c;
+	border-color: transparent;
+    border-radius: 5px;
+    line-height: 1.5;
+    padding: 5px 6px 5px 7px !important;
+    text-align: center !important;
+}
+.autoship-scheduled-orders-table .autoship-icon-button.autoship-button.edit {
+    color: #3c65f3;
+    border-color: #3c65f3;
+	border-color: transparent;
+    padding: 5px 6px !important;
+    border-radius: 5px;
+    line-height: 1.4;
+}
+.autoship-scheduled-orders-header-actions .button.autoship-action-btn:hover {
+    background: #080870;
+    color: #fff;
+}
+.autoship-schedule-options {
+    margin: 0px 0px 10px;
+}
+.autoship-cart-schedule-options input[type="radio"] {
+    --bs-form-check-bg: var(--bs-body-bg);
+    width: 1em;
+    height: 1em;
+    vertical-align: top;
+    background-color: var(--bs-form-check-bg);
+    background-image: var(--bs-form-check-bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    print-color-adjust: exact;
+    border-radius: 50%;
+	margin-right: 5px !important;
+}
+.autoship-cart-schedule-options input[type="radio"]:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
+}
+.autoship-cart-schedule-options label {
+    display: inline-flex;
+    align-items: center;
+}
+a.autoship-modal-trigger.autoship-info-link {
+    margin: 0 !important;
+    line-height: 1;
+}
+
+.maxw--800{
+    max-width: 800px;
+}
+
+.row--productgrid{
+    display: grid;
+    grid-gap: 15px;
+}
+
+.row--productgrid .product__descbox{
+    max-width: 125px;
+}
+
+ul#shipping_method li {
+    display: block;
+    min-height: 1.5rem;
+    
+    position: relative;
+}
+ul#shipping_method li input[type="radio"] {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    print-color-adjust: exact;
+    border-radius: 50%;
+}
+ul#shipping_method li input[type="radio"]:checked {
+    background-color: transparent;
+    border-color: #3C65F3;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%233C65F3'/%3e%3c/svg%3e");
+}
+.woocommerce ul#shipping_method li label span.woocommerce-Price-amount.amount {
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    right: auto;
+    margin-left: 7px;
+    top: 0;
+    font-size: 15px;
+}
+.shipping-calculator-form button.button.wp-element-button {
+    background: rgba(60, 101, 243, 1);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 12px 35px;
+    min-width: 200px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.shipping-calculator-form button.button.wp-element-button:hover {
+    background: rgb(50, 90, 236);
+    color: #fff;
+}
+
+.woocommerce-shipping-calculator .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 33px;
+    font-size: 14px;
+}
+.woocommerce-shipping-calculator span.select2-selection.select2-selection--single {
+    height: 35px;
+    border-radius: 5px;
+    margin: 0;
+    border-color: #d4d4ff;
+}
+.shipping-calculator-form span.select2-selection__arrow {
+    height: 33px !important;
+}
+
+.woocommerce-checkout div#wc-stripe-payment-request-wrapper {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px !important;
+}
+.checkout-page-div .woocommerce-info {
+    padding: 5px 0px !important;
+    text-align: center;
+}
+.return-to-shop .button.wc-backward.wp-element-button, .woocommerce-form-login button.woocommerce-button.button.woocommerce-form-login__submit.wp-element-button {
+	background: rgba(60, 101, 243, 1);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 15px;
+    min-width: 200px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.return-to-shop .button.wc-backward.wp-element-button:hover, .woocommerce-form-login button.woocommerce-button.button.woocommerce-form-login__submit.wp-element-button:hover {
+    background: rgb(50, 90, 236);
+    color: #fff;
+}
+
+.woocommerce-form-login label.woocommerce-form__label.woocommerce-form__label-for-checkbox.woocommerce-form-login__rememberme{
+    margin: 10px 0 0 0;
+}
+
+table.woocommerce-MyAccount-paymentMethods.shop_table.shop_table_responsive.account-payment-methods-table ~ a {
+    background: #060649;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 14px 35px;
+    min-width: 200px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.payment-method-actions a.button.delete {
+    background: transparent;
+    border: 1px solid #f33c3c;
+    opacity: 1;
+    font-size: 14px !important;
+    color: #d52f2f !important;
+    padding: 10px 20px;
+    font-weight: 500 !important;
+}
+
+.payment-method-actions a.button.autoship_update_all_orders {
+    background: transparent;
+    border: 1px solid #3c65f3;
+    opacity: 1;
+    font-size: 14px !important;
+    color: #3c65f3 !important;
+    padding: 10px 14px;
+    font-weight: 600 !important;
+}
+
+@media screen and (min-width: 1200px) {
+    .page-template--forgot-password.mt-ng-250,
+    .page-template--reset-password.mt-ng-250 {
+        margin-top: 20px;
+    }
+
+    .row--productgrid{
+        grid-template-columns: 130px 1fr;
+    }
+}
